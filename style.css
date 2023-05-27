@@ -9,8 +9,8 @@ body{
     background-color: #7e5eff;
 }
 .container{
+
     height: 100vh;
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,7 +21,7 @@ body{
     width: 40%;
     max-width: 45%;
     margin: 0 auto;
-    padding: 50px;
+    padding: 40px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
 }
@@ -71,4 +71,44 @@ body{
 }
 #prediction-btn :hover{
     cursor: pointer;
+}
+#result-name{
+    background: 2px solid red;
+}
+#gender-icon{
+    display: block;
+    width: 5em;
+    margin: 1em auto 2em auto;
+    position: relative;
+}
+.female{
+    background-color: #ff5f96;
+    border-radius: 5px;
+}
+.male{
+    background-color: #6D9DF6
+}
+#info{
+    text-align: center;
+}
+#result-name{
+    padding: 10px;
+    color: white;
+    text-transform: capitalize;
+}
+#gender{
+    margin-top: -1em;
+    margin-bottom: 1em;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: .4em;
+    text-transform: uppercase;
+    color: white;
+}
+#probability{
+    padding: 10px;
+    margin-bottom: 2em;
+    color: white;
+    letter-spacing: .2em;
+    font-weight: 300;
 }
